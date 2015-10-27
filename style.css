@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    width: 100%;
+    height: 400px;
+}
+
+.section1 {
+    background-color: #2ECC71;
+}
+
+.section2 {
+    background-color: #F39C12;
+}
+
+.section3 {
+    background-color: #5e91e3;
+}
+
+.section4 {
+    background-color: #ECF0F1;
+}
+
+.section5 {
+    background-color: #34495E;
+}
+
+.btn {
+    width: 40px;
+    height: 80px;
+    position: fixed;
+    bottom: 30px;
+    background: #ed4a5e;
+    left: 50%;
+    margin-left: 500px;
+    display: none;
+    transition: opacity .3s;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
